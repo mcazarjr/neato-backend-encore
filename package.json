@@ -1,15 +1,21 @@
 {
-  "name": "encore-ts-starter",
-  "private": true,
-  "version": "0.0.1",
-  "description": "Encore Typescript Starter",
-  "license": "MPL-2.0",
-  "type": "module",
-  "devDependencies": {
-    "@types/node": "^20.5.7",
-    "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "encore.dev": "^1.46.1"
-  }
+    "name": "encore-ts-starter",
+    "private": true,
+    "version": "0.0.1",
+    "description": "Encore Typescript Starter",
+    "license": "MPL-2.0",
+    "type": "module",
+    "devDependencies": {
+        "@types/node": "^20.5.7",
+        "@types/pg": "^8.11.11",
+        "drizzle-kit": "^0.30.2",
+        "tsx": "^4.19.2",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "drizzle-orm": "^0.38.4",
+        "encore.dev": "^1.46.1",
+        "pg": "^8.13.1"
+    }
 }
